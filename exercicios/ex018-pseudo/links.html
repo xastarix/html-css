@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: tomato;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        a:visited{
+            color:blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+
+        }
+        a:active{
+            color:green;
+        }
+        .especial{
+            background-color: aqua;
+        }
+        .especial::after{
+            content: " <--" ;
+        }
+        .especial::before{
+            content: "-->" ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Peronalizando links </h1>
+    <ul>
+       
+        <li><a rel="next" target="_blank" href="https://github.com/xastarix?tab=repositories">Repositório do GitHub</a></li>
+
+        <li><a rel="next" target="_blank" href="https://www.youtube.com/channel/UCbNbRvcpccrSuoM3at40u7g">Canal no Youtube</a></li>
+
+        <li><a class="especial" rel="nofollow" target="_blank" href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/">Site CursoemVideo</a></li>
+
+        <li>
+            <a class="especial" href="padoka.com">padaria</a>
+        </li>
+    </ul>
+</body>
+</html>

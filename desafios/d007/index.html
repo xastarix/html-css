@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexível</title>
+    <link rel="favicon-curso-em-video" href="imagens/logo-curso-em-video-full.png" type="image/x-icon">
+    
+</head>
+<body style="background-color: darkgray; text-align: center; " >
+    <h1>
+        Imagens flexível
+    </h1>
+    <p>
+        As imagens flexivel fica do tamanho adequado para cada dispositivo
+    </p>
+    <picture>
+        <source media="(max-width: 748px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1216px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="imagen flexivel">
+    </picture>
+</body>
+</html>

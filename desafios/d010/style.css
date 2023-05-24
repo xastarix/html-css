@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #82D9A0;
+    margin: auto;
+}
+
+header{
+    box-shadow: 1px 1px 11px black;
+    background-image: linear-gradient(#38C979, #1B5936);
+}
+
+header > h1 {
+    text-align: center;
+
+    padding-top: 45px;
+
+    margin-top: 0px;
+    
+    color: white;
+}
+
+header > p{
+    text-align: center;
+
+    color: white;
+}
+
+nav{
+    padding-bottom: 15px;
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+
+    color:white;
+
+    padding-right: 25px;
+    padding-left: 9px;
+}
+
+main{
+    background-color: #FFFFFF;
+    width: 1100px;
+    margin: auto;
+
+    box-shadow: 1px 1px 5px 0.2px black;
+
+    padding: 20px;
+}
+
+main > p{
+    text-indent: 20px;
+    text-align: justify;
+   
+}
+
+.especial{
+    color:  #1B6139;
+}
+
+.link{
+    color: #1B6139;
+}
+
+.link:hover{
+    text-decoration: underline;
+
+}
+
+main > h1{
+    color: #1B6139;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+}
+
+main > h2 { 
+    background-image: linear-gradient(to right, #37c37477, #37c37400);
+    color: #1B6139;
+
+    font-family:"idroid", Helvetica, sans-serif;
+
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.container{
+    text-align: center;
+}
+
+.main-1{
+    box-shadow: 1px 1px 5px 0.2px black;
+    background-color: #1A5C38;
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-2 > p{
+    text-align: justify;
+    text-align: center;
+}
+
+.main-2{
+    box-shadow: 1px 1px 5px 0.2px black;
+    background-color: white;
+    width: 1140px;
+    margin: auto;
+    padding: 1px ;
+    border-radius: 0px 0px 7px 7px;
+}
+.main-2 > section{
+    background-color: #C5EBD6;
+    margin: 20px;
+
+}
+
+section{
+    border-radius: 10px ;
+    margin-top: 1000px;
+    padding-bottom: 10px;
+}
+
+section > h3{
+    color: white;
+    font-weight: bold;
+    background-color: #38C979;
+    border-radius: 10px 10px 0px 0px;
+
+    padding: 13px;
+}
+
+section > p{
+    text-align: justify;
+    text-indent: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lado1 {
+    display: inline-block;
+    margin-right: 300px;
+    text-decoration: underline;
+}
+
+.lado2{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #1A5C38;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+}

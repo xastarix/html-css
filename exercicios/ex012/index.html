@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Midias video em HTML5</title>
+   <link rel="shortcut icon" href="logo-curso-em-video-full.png" type="image/x-icon">
+</head>
+
+<body>
+   <h1>colocando video no site</h1>
+   <h2>
+      esse vídeo está hospedado no meu computador local
+   </h2>
+   <video width="560" height="315" poster="imagens/yhumb.jpg" controls>
+      <source src="midia/vid.mp4" type="video/mp4">
+      <source src="midia/vid.webm" type="video/webm">
+      <source src="midia/vid.ogv" type="video/ogg">
+      <p>
+         seu navegador não suporta video, baixe o arquivo <a href="midia/vid.mp4">AQUI</a>
+      </p>
+   </video>
+   <br>
+   <br>
+   <h2>Esse vídeo está hospedado no youtube, servido externo</h2>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/DjOSM72cYac" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+</body>
+
+</html>

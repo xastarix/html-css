@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="shortcut icon" href="logo-curso-em-video-full.png" type="image/x-icon">
+</head>
+
+<body>
+ <h1>
+        imagens dinamicas
+    </h1>
+    <p>teste de imagens de tamanhos diferentes </p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-M.png" type="image/png">
+
+        <img src="imagens/foto-G.png" alt="imagem flexivel">
+    </picture>  
+     <h1>
+        Reproduzindo audio
+     </h1> 
+     <P>
+        Audio em HTML5 
+     </P>
+     <audio controls preload="metadata">
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+        <p>
+         impossivel produzir audio <a href="midia/musica.mp3"></a>
+        </p>
+     </audio>
+     <br>
+     <video width="560" height="315" poster="imagens/yhumb.jpg" controls>
+      <source src="midia/vid.mp4" type="video/mp4">
+      <source src="midia/vid.webm" type="video/webm">
+      <source src="midia/vid.ogv" type="video/ogg">
+      <p>
+         seu navegador não suporta video, baixe o arquivo <a href="midia/vid.mp4">AQUI</a>
+      </p>
+     </video>
+     <br>
+     <br>
+     
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/DjOSM72cYac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+
+</html>
