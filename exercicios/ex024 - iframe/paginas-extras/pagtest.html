@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+    
+        }
+
+        table{
+            width: 500px;
+            height: 500px;
+            border-collapse: collapse;
+        }
+        tr, td, th{
+            border: 1px solid black;
+        }
+        td, th{
+            padding: 6px;
+
+        }
+        tr{
+            text-align: center;
+        }
+        caption{
+            padding: 5px;
+            font-weight: bolder;
+        }
+        tr:nth-child(even){
+            background-color: grey;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Tabelas de vendas 
+        </caption>
+        <thead>
+            <tr>
+                <th>lugares</th>
+                <th>lojas</th>
+                <th>produtos</th>
+                <th>vendas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <th>rua 1</th>
+            <td>loja 1</td>
+            <td>produto 4</td>
+            <td>valor xxx</td>
+
+            <tr>
+                <th>rua 2</th>
+                <td>loja 2</td>
+                <td>produtos 8</td>
+                <td>valor xxx</td>
+            </tr>
+
+            <tr>
+                <th>rua 3</th>
+                <td>loja 3</td>
+                <td>produtos 2</td>
+                <td>valor xxx</td>
+            </tr>
+
+            <tr>
+                <th>rua 4</th>
+                <td>loja 4</td>
+                <td>produtos 10</td>
+                <td>valor xxx</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
