@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #cabeçalho h1 {
+            text-align: center;
+            padding: 10px 10px;
+        }
+        #cabeçalho p {
+            text-align: center;
+            padding: 10px 10px;
+        }
+        #formulario{
+            background-color: bisque;
+            padding: 15px;
+        }
+        #formulario p{
+            background-color: bisque;
+            line-height: 40PX;
+        }
+        #enviar{
+            padding: 7px;
+            margin-left:100px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabeçalho">
+        <h1>dados cadastrais</h1>
+        <p>Preencha seus dados</p>
+    </div>
+    <div id="formulario">
+        <form action="#" method="post" autocomplete="on">
+
+            <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome" placeholder="Digite se nome" maxlength="50" minlength="3" required autocomplete="nickname"></p>
+
+            <p><label for="sobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" maxlength="30" minlength="5" required autocomplete="additional-name"></p>
+
+            <p><label for="cep">Cep:</label> <input type="text" name="Cep" id="cep" placeholder="Digite seu cep" maxlength="8" minlength="8" required autocomplete="postal-code"></p>
+
+            <P><label for="cpf">CPF:</label> <input type="text" name="CPF" id="cpf" placeholder="Digite se CPF" maxlength="13" minlength="10" required autocomplete="cc-number"></P>
+
+            <p><label for="email">Email:</label> <input type="text" name="email" id="email" placeholder="Digite seu email" minlength="9" maxlength="40" required autocomplete="email"></p>
+
+            <p><input type="submit" value="Enviar" id="enviar"></p>
+
+        </form>
+    </div>
+
+</body>
+</html>
