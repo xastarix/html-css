@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        div{
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de formulario</h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Dados cadastrais</legend>
+            <div>
+                <label for="iemail">Email: <input type="email" name="email" id="iemail" required maxlength="40"  autocomplete="email"></label>
+            </div>
+            <div>
+                <label for="ifone">Telefone: <input type="tel" name="telefone" id="ifone" required maxlength="11" minlength="11" autocomplete="tel-national"></label>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>
