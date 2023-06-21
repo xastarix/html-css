@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outputs</title>
+</head>
+<body>
+    <h1>Sobre output</h1>
+
+    <form action="">
+        <p>
+            <label for="inum">Numero: </label>
+            <input type="range" name="num" id="inum" min="0" max="5"  value="0" oninput="inota.innerHTML =  Number(inum.value)">
+            <output name="nota" id="inota">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
